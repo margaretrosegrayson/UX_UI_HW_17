@@ -197,6 +197,7 @@
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-size: 19px;
   font-weight: 100;
+  width: 100%;
 }
 
 .footer a {
@@ -229,4 +230,5 @@
 
 #top:hover {
   background-color: #555;
+  color: white;
 }
