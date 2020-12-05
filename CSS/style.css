@@ -188,6 +188,8 @@
 .footer {
   background-color: #F0CCCB;
   padding: 20px;
+  display: flex;
+  align-items: center;
 }
 
 .footer h4 {
@@ -208,4 +210,23 @@
 .push img {
   height: 50px;
   width: auto;
+}
+
+#top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: white;
+  color: #414042;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#top:hover {
+  background-color: #555;
 }
