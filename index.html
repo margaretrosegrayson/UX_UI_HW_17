@@ -2,7 +2,7 @@
 <html>
 <head>
   <link href="css/style.css" type="text/css" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300&display=swap" rel="stylesheet">
 </head>
 
@@ -17,28 +17,39 @@
     </div>
 </div>
 <!-- Hero Section -->
+<div class="panel" data-color="pink">
 <div class="hero">
     <h1>Hello &amp Bonjour</h1>
     <a href="#"><h3>Learn about me</h3><img src="icons/arrow-right-solid.svg"></a>
     <div class="heroRight"><img src="images/Margaret.jpg"></div>
 </div>
+</div>
 <!-- Case Study 1 -->
 <div class="caseStudy1">
+  <div id="ftc"><a href="#">
     <h2>Simplifying the FTC</h2>
     <h3>A responsive web redesign</h3>
-    <div class="right"><img src="images/FTC.png"></div>
+  </div>
+    <div class="mockup-ftc"><img src="images/FTC.png"></div>
+  </a>
 </div>
 <!-- Case Study 2 -->
 <div class="caseStudy2">
+  <div id="achr"><a href="#">
     <h2>A Hoppy Tail of Adoption</h2>
     <h3>A responsive web redesign</h3>
-    <div class="right"><img src="images/ACHR.png"></div>
+  </div>
+    <div class="mockup-achr"><img src="images/ACHR.png"></div>
+  </a>
 </div>
 <!-- Case Study 3 -->
 <div class="caseStudy3">
+  <div id="equil"><a href="#">
     <h2>Finding the Balance</h2>
     <h3>A mobile app design</h3>
-    <div class="right"><img src="images/Equil.png"></div>
+  </div>
+    <div class="mockup-equil"><img src="images/Equil.png"></div>
+  </a>
 </div>
 <!-- Footer -->
 <div class="footer">
@@ -47,9 +58,9 @@
         <a href="https://www.linkedin.com/in/margaret-rose-grayson/" target="_blank"><img src="icons/linkedin-icon.jpg"></a>
         <a href="https://www.behance.net/margaret-rose" target="_blank"><img src="icons/behance-icon.png"></a>
         <button onclick="topFunction()" id="top" title="Go to top"><h4>Back to top</h4></button>
-    </div>
-    
+    </div>  
 </div>
+
 <script>
     //Get the button
     var mybutton = document.getElementById("top");
