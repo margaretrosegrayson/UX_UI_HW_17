@@ -189,22 +189,21 @@
   background-color: #F0CCCB;
   padding: 20px;
   display: flex;
-  align-items: center;
 }
 
 .footer h4 {
-  display: flex;
-  align-items: center;
   color: black;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-size: 19px;
   font-weight: 100;
-  width: 100%;
-  height: 100%;
 }
 
 .footer a {
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
 }
 
 .footer a:hover {
@@ -217,12 +216,19 @@
   height: 100%;
   width: 100%;
   background-color: #F0CCCB;
-  margin: 20px 150px 0 0;
+  margin: 0 150px 0 0;
+}
+
+.social a {
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+  width: 10%;
 }
 
 .social img {
   height: 50px;
-  width: auto;
+  width: 50px;
   padding: 10px;
 }
 
