@@ -39,27 +39,6 @@ body {
   padding: 10px 10px 10px 100px;
 }
 
-/* colors */
-.color-pink {
-  background-color: #F0CCCB;
-}
-
-.color-blue {
-  background-color: #05CBFE;
-}
-
-.color-purple {
-  background-color: #A64E7E;
-}
-
-.color-black {
-  background-color: black;
-}
-
-.panel {
-  min-height: 100vh;
-}
-
 /* hero section style */
 
 .hero {
